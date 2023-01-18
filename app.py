@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 
 app = Flask(__name__)
 
+
 @app.route("/")
 def generate_tree():
 
